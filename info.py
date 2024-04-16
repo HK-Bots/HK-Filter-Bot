@@ -131,7 +131,7 @@ else:
 
     ON_HEROKU = False
 
-URL = environ.get("URL", "https://themovieproviderbot-9hnn.onrender.com/")
+URL = environ.get("URL", "https://hk-filter-bot.onrender.com/")
 
 
 
