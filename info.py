@@ -91,8 +91,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://adrinolinks.in/')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8d4ede698e9aa84bc9998bcd53f7c34cf305e21a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'upshrink.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ffb1b16a5cc0396ee306d67bfcea3dbf9da5dcbd')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
