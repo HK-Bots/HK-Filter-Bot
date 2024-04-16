@@ -91,7 +91,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://adrinolinks.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://adrinolinks.in/')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8d4ede698e9aa84bc9998bcd53f7c34cf305e21a')
 
 # Others
