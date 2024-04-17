@@ -133,7 +133,9 @@ else:
 
 URL = environ.get("URL", "https://filetolinkhk-harmish77.koyeb.app/")
 
+# Rename Info ; If True Then Bot Rename File Else Not
 
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
