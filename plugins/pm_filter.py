@@ -1024,7 +1024,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(text=new_text)
             return
         else:
-            new_text= "**🤣 you already used free now no more free trail. please buy subscription here are our 👉 /plans**"
+            new_text= "**🤣 you already used free now no more free trail. please buy subscription here are our 👉 /plan**"
             await query.message.edit_text(text=new_text)
             return
             
