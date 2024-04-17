@@ -1,3 +1,4 @@
+
 pyrofork
 tgcrypto 
 pymongo[srv]==3.12.3 
@@ -43,6 +44,7 @@ ujson
 wget 
 pytz
 aiofiles
+hachoir
 dnspython==2.3.0
 ### googletrans==4.0.0-rc1 ###
 python-decouple
@@ -52,7 +54,7 @@ ytthumb
 jinja2
 apscheduler
 pyshorteners
-pyromod
+pyromod==1.5
 colorama
 openai==0.25.0
 
