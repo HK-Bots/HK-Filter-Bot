@@ -36,6 +36,7 @@ from aiohttp import web
 from plugins import web_server
 
 import asyncio
+from pyromod import listen
 from pyrogram import idle
 from TechHK.bot import TechHKBot
 from TechHK.util.keepalive import ping_server
