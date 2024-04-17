@@ -305,7 +305,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
     
     PROGRESS_BAR = """\n
 
-╭━━━━❰ Tech VJ Renaming... ❱━➣
+╭━━━━❰ Tech HK Renaming... ❱━➣
 
 ┣⪼ 🗂️ : {1} | {2}
 
