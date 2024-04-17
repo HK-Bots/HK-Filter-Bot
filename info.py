@@ -131,7 +131,7 @@ else:
 
     ON_HEROKU = False
 
-URL = environ.get("URL", "https://filetolinkhk-harmish77.koyeb.app/")
+URL = environ.get("URL", "https://hk-filter-bot.onrender.com/")
 
 # Rename Info ; If True Then Bot Rename File Else Not
 
