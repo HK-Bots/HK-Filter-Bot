@@ -71,7 +71,7 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/main_movie_hub')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'h_k_Bots') # Support Chat Link Without https:// or @
 
 # True Or False
-PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
+PM_SEARCH = bool(environ.get('PM_SEARCH', False)) # In Pm Search Currently Spell Check Doesn't Work.
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 VERIFY = bool(environ.get('VERIFY', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
