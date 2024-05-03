@@ -11,17 +11,23 @@
 ## Main Feature 
 <b>
   
-- [x] Premium Plan Feature Added
-- [x] Refer To Get Premium Added
-- [x] Url Shortner On / Off Feature Added
-- [x] Pm Search On / Off Added (Spell Check Not Work)
-- [x] Stream Feature Added With Many Player Support
+- [x] Premium Plan Feature 
+- [x] Refer To Get Premium
+- [x] Custom Force Subscribe
+- [x] Rename Feature & On / Off
+- [x] Premium And Refer On / Off 
+- [x] Stream Feature On / Off 
+- [x] Url Shortner On / Off Feature 
+- [x] Pm Search On / Off (Spell Check Not Work)
+- [x] Custom Stream
+- [x] Stream Feature With Many Player Support 
 - [x] Language & Season & Quality & Episode Choose Option
+- [x] Auto Approve & On / Off
 - [x] Custom Url Shortner Support
-- [x] Token Verification Added
-- [x] Send All Button Added
+- [x] Token Verification 
+- [x] Send All Button 
 - [x] Custom Tutorial Button
-- [x] Bot Pm File Auto Delete Added
+- [x] Bot Pm File Auto Delete 
 
 Join My <a href='https://t.me/h_k_Bots'>Update Channel</a> For More Update Regarding Repo.</b>
 
@@ -68,6 +74,23 @@ Join My <a href='https://t.me/h_k_Bots'>Update Channel</a> For More Update Regar
 • /remove_premium - 𝑅𝑒𝑚𝑜𝑣𝑒 𝑢𝑠𝑒𝑟 𝑓𝑟𝑜𝑚 𝑝𝑟𝑒𝑚𝑖𝑢𝑚 𝑙𝑖𝑠𝑡
 • /plan - 𝐶ℎ𝑒𝑐𝑘 𝑝𝑙𝑎𝑛 𝑑𝑒𝑡𝑎𝑖𝑙𝑠
 • /myplan - 𝐶ℎ𝑒𝑐𝑘 𝑦𝑜𝑢𝑟 𝑝𝑙𝑎𝑛 𝑠𝑡𝑎𝑡𝑠
+• /shortlink - 𝑠𝑒𝑡 𝑦𝑜𝑢𝑟 𝑢𝑟𝑙 𝑠ℎ𝑜𝑟𝑡𝑛𝑒𝑟 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝
+• /setshortlinkoff  - 𝑜𝑓𝑓 𝑠ℎ𝑜𝑟𝑡𝑙𝑖𝑛𝑘 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝
+• /setshortlinkon - 𝑜𝑛 𝑠ℎ𝑜𝑟𝑡𝑙𝑖𝑛𝑘 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝
+• /shortlink_info - 𝑐ℎ𝑒𝑐𝑘 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝 𝑎𝑙𝑙 𝑠ℎ𝑜𝑟𝑡𝑙𝑖𝑛𝑘 𝑎𝑛𝑑 𝑡𝑢𝑡𝑜𝑟𝑖𝑎𝑙 𝑙𝑖𝑛𝑘 𝑑𝑒𝑡𝑎𝑖𝑙𝑠
+• /set_tutorial - 𝑠𝑒𝑡 𝑦𝑜𝑢𝑟 𝑢𝑟𝑙 𝑠ℎ𝑜𝑟𝑡𝑛𝑒𝑟 ℎ𝑜𝑤 𝑡𝑜 𝑜𝑝𝑒𝑛 𝑙𝑖𝑛𝑘 𝑢𝑟𝑙
+• /remove_tutorial - 𝑟𝑒𝑚𝑜𝑣𝑒 𝑦𝑜𝑢𝑟 𝑡𝑢𝑡𝑜𝑟𝑖𝑎𝑙 𝑢𝑟𝑙
+• /restart  - 𝑟𝑒𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡 𝑠𝑒𝑟𝑣𝑒𝑟
+• /fsub - 𝑎𝑑𝑑 𝑓𝑜𝑟𝑐𝑒 𝑠𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑐ℎ𝑎𝑛𝑛𝑒𝑙 𝑖𝑛 𝑔𝑟𝑜𝑢𝑝
+• /nofsub - 𝑟𝑒𝑚𝑜𝑣𝑒 𝑜𝑟 𝑜𝑓𝑓 𝑓𝑜𝑟𝑐𝑒 𝑠𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝
+• /rename - 𝑟𝑒𝑛𝑎𝑚𝑒 𝑦𝑜𝑢𝑟 𝑓𝑖𝑙𝑒
+• /set_caption - 𝑎𝑑𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛 𝑓𝑜𝑟 𝑦𝑜𝑢𝑟 𝑟𝑒𝑛𝑎𝑚𝑒𝑑 𝑓𝑖𝑙𝑒
+• /see_caption - 𝑠𝑒𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛
+• /del_caption - 𝑑𝑒𝑙𝑒𝑡𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑐𝑎𝑝𝑡𝑖𝑜𝑛
+• /set_thumb - 𝑎𝑑𝑑 𝑡ℎ𝑢𝑚𝑏𝑛𝑎𝑖𝑙 𝑓𝑜𝑟 𝑦𝑜𝑢𝑟 𝑟𝑒𝑛𝑎𝑚𝑒𝑑 𝑓𝑖𝑙𝑒
+• /view_thumb - 𝑣𝑖𝑒𝑤 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑡ℎ𝑢𝑚𝑏𝑛𝑎𝑖𝑙
+• /del_thumb - 𝑑𝑒𝑙𝑒𝑡𝑒 𝑦𝑜𝑢𝑟 𝑠𝑎𝑣𝑒𝑑 𝑡ℎ𝑢𝑚𝑏𝑛𝑎𝑖𝑙
+• /stream - 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒 𝑠𝑡𝑟𝑒𝑎𝑚 𝑎𝑛𝑑 𝑑𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝑙𝑖𝑛𝑘 𝑜𝑓 𝑦𝑜𝑢𝑟 𝑓𝑖𝑙𝑒
 ```
 
 ## Variables
@@ -80,8 +103,8 @@ Join My <a href='https://t.me/h_k_Bots'>Update Channel</a> For More Update Regar
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/I36_OTWvT2w)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-* `FDQN`: Add Your Deploy Server App url Must Add this Stream Working Properly.</b>
+* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
+
 ### Optional Variables
 * <b>`PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
@@ -103,7 +126,7 @@ Join My <a href='https://t.me/h_k_Bots'>Update Channel</a> For More Update Regar
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/HK-Bots/HK-Filter-BotAuto-branch=HKBOTS&name=VJ-Filter-bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/HK-Bots/HK-Filter-BotAuto-branch=Tech_HK&name=HK-Filter-bot)
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -130,21 +153,25 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/HK-Bots/HK-Filter-Bot/tree/Tech_VJ">
+<a href="https://render.com/deploy?repo=https://github.com/HK-Bots/HK-Filter-Bot/tree/Tech_HK">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
 
-<details><summary><b>Deploy To VPS</b></summary>
-<p>
-<pre>
-git clone https://github.com/HK-Bots/HK-Filter-Bot
-# Install Packages
-pip3 install -U -r requirements.txt
+<details><summary><b>Deploy To VPS</summary>
+
+
+`git clone https://github.com/HK-Bots/HK-Filter-Bot`
+
+Install Packages
+
+`pip3 install -U -r requirements.txt`
+
 Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
+
+`python3 bot.py`
+
+</b>
 </details>
 
 <hr>
@@ -160,6 +187,7 @@ python3 bot.py
 
 ## Note 🏷️
  
+* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Mr_HKs)
 
 <b>[Note To A So Called HK](https://telegram.dog/Mr_HKs): 
 
@@ -167,7 +195,7 @@ Fork the repo and edit as per your needs.</b>
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-<b>Licensed under [GNU AGPL 2.0.](https://github.com/HK-Bots/HK-Filter-Bot/blob/HKBOTS/LICENSE)
+<b>Licensed under [GNU AGPL 2.0.](https://github.com/HK-Bots/HK-Filter-Bot/blob/Tech_HK/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 
 </pre>
