@@ -8,7 +8,7 @@
     <meta property="og:image" content="https://i.ibb.co/5nFk7rD/photo-2024-04-08-19-35-36-transformed.jpg" itemprop="thumbnailUrl">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOVIE HUB BY HK-BOTS</title>
+    <title>{{file_name}} | MOVIE HUB BY HK-BOTS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>    
@@ -20,10 +20,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
-<body class='bg-gradient-to-bl from-yellow-500 via-red-600 to-orange-500'>
+<body class="bg-black">
     <header>
         <!-- Navbar -->
             <nav class="navbar bg-dark p-lg-4 p-2">
@@ -134,6 +133,8 @@
             </nav>
             <!-- ./Navbar -->
     </header>
+    <!-- ./Header -->
+
     <div class="bg-black  text-light"  >
         <!-- file Name -> to be displayed here  -->
         <div class="justify-content-center align-items-center w-100 d-flex">
@@ -377,7 +378,7 @@
 	    
 	function mx_player() {
             const openLazyLink = lazyLink;
-            const openMx = `intent:${openLazyLink}#Intent;package=com.mxMR.videoplayer.ad;end`;
+            const openMx = `intent:${openLazyLink}#Intent;package=com.mxtech.videoplayer.ad;end`;
             window.location.href = openMx;
         }
         
