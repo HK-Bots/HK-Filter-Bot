@@ -16,7 +16,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('SESSION', 'TechHKBot')
 API_ID = int(environ.get('API_ID', '9204488'))
 API_HASH = environ.get('API_HASH', '113378543a8c43310ff96d22cc95061f')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6051337002:AAFvHP5Vl_MaxIpVmIs-w3S5BNJZyOEnDq0")
@@ -34,8 +34,10 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001644247336').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
-auth_grp = environ.get('AUTH_GROUP')
+
+# auth_channel means force subscribe channel.
+auth_channel = environ.get('AUTH_CHANNEL', '') # give your force subscribe channel id here else leave it blank
+auth_grp = environ.get('AUTH_GROUP', '') # give your force subscribe group id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
@@ -54,8 +56,6 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
 
-
-
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
@@ -71,10 +71,10 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/main_movie_hub')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'h_k_Bots') # Support Chat Link Without https:// or @
 
 # True Or False
-PM_SEARCH = bool(environ.get('PM_SEARCH', False)) # In Pm Search Currently Spell Check Doesn't Work.
+PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 VERIFY = bool(environ.get('VERIFY', False))
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
@@ -115,27 +115,22 @@ QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 # Online Stream and Download
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 
-
-
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-
+MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
-
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-
 if 'DYNO' in environ:
-
     ON_HEROKU = True
-
 else:
-
     ON_HEROKU = False
 
 URL = environ.get("URL", "https://hk-filter-bot.onrender.com/")
 
 # Rename Info ; If True Then Bot Rename File Else Not
-
 RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
+
+# Auto Approve Info ; If True Then Bot Approve New Upcoming Join Request Else Not
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or Flase
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
