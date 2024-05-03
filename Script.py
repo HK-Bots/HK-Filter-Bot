@@ -21,11 +21,6 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
-    SOURCE_TXT = """<b>ɴᴏᴛᴇ:
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Mr_HKs">ʜᴇʀᴇ</a></b>"""
-
-
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
@@ -266,7 +261,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
     TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
   
- ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tts ᴄᴏɴᴠᴇʀᴛ ᴛᴇꜱᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ</b>""" 
+ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tts</b>""" 
   
     GTRANS_TXT = """<b>ʜᴇʟᴩ:ɢᴏᴏɢʟᴇ ᴛʀᴀɴꜱʟᴀᴛᴇʀ 
   
@@ -301,21 +296,15 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  ⚠️ ᴛʜɪꜱ ꜱᴇʀᴠɪᴄᴇ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴏᴩᴩᴇᴅ 
   
  </b>""" 
-    
+
     PROGRESS_BAR = """\n
-
 ╭━━━━❰ Tech HK Renaming... ❱━➣
-
 ┣⪼ 🗂️ : {1} | {2}
-
 ┣⪼ ⏳️ : {0}%
-
 ┣⪼ 🚀 : {3}/s
-
 ┣⪼ ⏱️ : {4}
-
 ╰━━━━━━━━━━━━━━━➣ """
-    
+  
     ABOOK_TXT = """<b>ʜᴇʟᴩ : ᴀᴜᴅɪᴏʙᴏᴏᴋ 
   
  yᴏᴜ ᴄᴀɴ ᴄᴏɴᴠᴇʀᴛ ᴀ ᴩᴅꜰ ꜰɪʟᴇ ᴛᴏ ᴀ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ✯ 
@@ -342,7 +331,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  • ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ 
    
  ⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 
- ◉ Reply To Any Sticker [/stickerid]  
+ /stickerid
  </b>""" 
   
     FONT_TXT= """<b>ᴜꜱᴀɢᴇ 
@@ -413,9 +402,9 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  • Tʜᴇꜱᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡᴏʀᴋꜱ ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ. 
  • Tʜᴇꜱᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.</b>""" 
   
-    SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜ 
+    SHARE_TXT = """<b>Get your text share url. 
   
- - ᴇx :- /share hi da 
+ - ᴇx :- /share
   
  </b>""" 
   
@@ -689,6 +678,33 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/Mr_HKs'>HK</a>
 """
+
+    RENAME_TXT = """
+🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
+  
+•> /set_thumb - send any picture to automatically set thumbnail.
+•> /del_thumb use this command and delete your old thumbnail.
+•> /view_thumb use this command view your current thumbnail.
+
+📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
+
+•> /set_caption - set a custom caption
+•> /see_caption - see your custom caption
+•> /del_caption - delete custom caption
+
+Example:- /set_caption 📕 File Name: {filename}
+💾 Size: {filesize}
+⏰ Duration: {duration}
+
+✏️ <b><u>HOW TO RENAME A FILE</u></b>
+
+•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
+"""
+
+    STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
+
+/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+
 
 # Don't Remove Credit HK-BOTS
 
